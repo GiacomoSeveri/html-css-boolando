@@ -172,3 +172,50 @@ a {
 .old-price {
     text-decoration: line-through;
 }
+
+.interaction {
+    padding: 30px 0px;
+    max-width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social  {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 20px;
+    text-align: start;
+    margin-left: 277.5px;
+}
+
+.legal-i  {
+
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 20px;
+    text-align: start;
+    margin-right: 277.5px; 
+
+}
+
+.legal-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.other {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.info {
+    padding: 0px 5px 0px 0px;
+    font-size: 15px;
+}
+
+.icon {
+    padding: 0px 0px 0px 5px;
+    font-size: 20px;
+}
