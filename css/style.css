@@ -29,6 +29,12 @@ header {
     z-index: 1;
 }
 
+footer {
+    background-color: #1A1A1A;
+}
+
+/* tag */
+
 img {
     max-width: 25%;
     height: auto;
@@ -75,11 +81,14 @@ a {
 }
 
 .product {
-   
+    position: relative;
     max-width: 100%;
 }
 
 .product2 {
+    position: absolute;
+    top: 0;
+    right: 0;
     max-width: 100%;
     display: none;
 }
@@ -141,7 +150,7 @@ a {
     display: none;
 }
 
-.heart:hover .fav {
+.hh:hover .fav {
     display: block;
 }
 
