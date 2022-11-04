@@ -1,0 +1,48 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generics */
+
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #FF6900;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 50px;
+    box-shadow: 0px 2px 10px #666;
+}
+
+img {
+    max-width: 25%;
+    height: auto;
+  }
+  
+div{
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 5px;
+}
+
+/* class */
+
+.logo {
+    margin-right: -335px;
+}
+
+.sec {
+    font-weight: 600;
+}
